@@ -1,5 +1,5 @@
 body {
-    text-align: justify
+    text-align: justify;
 }
 
 div#old {
@@ -28,6 +28,8 @@ div#new1 {
     border-bottom-color: aquamarine;
 }
 
+
+/*This part can be found in a_button files in lab 03 folder*/
 a {
     text-align: center;
     padding: 15px;
