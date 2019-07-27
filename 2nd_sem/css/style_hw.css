@@ -3,8 +3,11 @@ body {
 }
 
 p {
-    background-color: darkred;
-    color: greenyellow;
+    background-color: aquamarine;
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
     min-width: 500px;
     max-height: 900px;
     max-width: 700px;
