@@ -39,13 +39,11 @@ div {
 div#one {
     background-color: #83BCA9;
      color: #394f3c;
-    /* color: red; */
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
 }
 
 
 div#two {
-    /* margin-top: 50px; */
     color: #593F62;
     background-color: #AEB4A9;
 }
@@ -66,8 +64,4 @@ p, h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 
-@media screen and (max-width:750px){
-
-} */
 
