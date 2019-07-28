@@ -12,7 +12,11 @@
 
             p#extra {
                 text-decoration: overline;
+
+                /* create a space in first line */
                 text-indent: 30px;
+
+                /* the direction of the text (right-to-left = rtl) */
                 direction: rtl;
                 text-transform: capitalize;
             }
@@ -23,6 +27,9 @@
 
             p#cap {
                 letter-spacing: 5px;
+                /* space between letters */
+
+                /* shadow for text */
                 text-shadow: 4px 3px orangered;
             }
 
@@ -36,21 +43,33 @@
             p#fo {
                 text-align: justify;
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                /* type of font */
+
                 word-spacing: 5px;
+                /* space between words */
             }
         </style>
     </head>
 <body>
     <strong>Hello</strong><u>I am Alson.</u> <br />
+    <!-- u = underlines -->
+    <!-- strong and b = bold -->
+
     <b>I am doing some HTML.</b>
 
     <p>
         This is subscript.<br/>
         H<sub>2</sub>o<br/>
+        <!-- sub to create a subscript -->
+
         This is power.<br/>
         10<sup>5</sup><br/>
+        <!-- sup to create superscript -->
+
         And this is cross<br/>
         <del>1500</del>
+        <!-- del = cross the text in between -->
+
         <P id="extra" class="para">
             overline with capitalization.
         </P>

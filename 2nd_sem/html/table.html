@@ -9,6 +9,7 @@
             }
             table, td, th {
                 border: 1px solid black;
+                /* creates border */
             }
             th {
                 text-align: left;
@@ -22,6 +23,7 @@
                 border-top: 1px solid black;
             }
 
+/* check the css_after.html to check in more detail */
             td:hover {
                 background-color: darkolivegreen;
             }
@@ -41,14 +43,22 @@
         <h2 align="center">Table</h2>
         <hr width="50%">
         <div>
+
+            <!-- table = to create table -->
             <table border="border" align="center">
+
+                <!-- tr = table row -->
                 <tr align="center">
+
+                    <!-- th = table heading -->
                     <th>ID</th>
                     <th>Name</th>
                     <th>Courses</th>
                     <th>Marks</th>
                 </tr>
                 <tr align="center" id="all">
+
+                    <!-- td = -->
                     <td>1</td>
                     <td>Aa</td>
                     <td>Computer</td>
@@ -64,6 +74,8 @@
                     <td>3</td>
                     <td>Cc</td>
                     <td rowspan="2" id="odd">55</td>
+                    <!-- rowspan collapses the no. of row given -->
+
                 </tr>
                 <tr align="center">
                     <td>4</td>
@@ -72,6 +84,8 @@
                 </tr>
                 <tr id="all">
                     <td colspan="4" align="center">Thank you</td>
+                    <!-- colspan to collapses the no. of col given -->
+
                 </tr>
             </table>
         </div>
