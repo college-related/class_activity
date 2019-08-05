@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+
+div {
+    padding: 15px;
+    line-height: 30px;
+}
+
+div:nth-child(even){
+    background-color: rgb(123, 226, 230);
+}
