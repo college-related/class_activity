@@ -2,11 +2,19 @@
     margin: 0;
 }
 
-div {
-    padding: 15px;
-    line-height: 30px;
+header{
+    text-align: center;
+    color: aquamarine;
+    background-color: black;
 }
 
-div:nth-child(even){
-    background-color: rgb(123, 226, 230);
+main{
+    background-color: darkgray;
+}
+
+.description {
+    padding: 30px;
+    margin: 10px 0;
+    background-color: rgba(224, 224, 224, 0.666);
+    text-align: center;
 }
