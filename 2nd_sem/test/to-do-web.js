@@ -37,9 +37,9 @@ function render(){
     var incomplete = "";
     task.forEach(function(t, ind){
         if(t.isComplete){
-            completed += "<li><input type='checkbox' onclick = 'changeStatus(task["+ ind + "]); render() ;' >" + t.name + "</li><br/>" ;
+            completed += "<li><input type='checkbox' title = 'Mark as complete' onclick = 'changeStatus(task["+ ind + "]); render() ;' >" + t.name + "</li><br/>" ;
         }else{
-            incomplete += "<li><input type='checkbox' onclick = 'changeStatus(task["+ ind + "]); render() ;' >" + t.name + "</li><br/>" ;
+            incomplete += "<li><input type='checkbox' title = 'Mark as uncomplete' onclick = 'changeStatus(task["+ ind + "]); render() ;' >" + t.name + "</li><br/>" ;
         }
     })
     ul.innerHTML = incomplete ;
