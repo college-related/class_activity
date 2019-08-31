@@ -38,6 +38,10 @@ ul{
     font-size: 24px;
 }
 
+ul#cList li{
+    text-decoration: line-through;
+}
+
 li{
     padding: 8px;
     display: inline-block;
