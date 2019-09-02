@@ -1,20 +1,42 @@
 * {
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header{
     text-align: center;
     color: aquamarine;
     background-color: black;
+    padding: 12px;
 }
 
-main{
-    background-color: darkgray;
-}
 
 .description {
     padding: 30px;
-    margin: 10px 0;
-    background-color: rgba(224, 224, 224, 0.666);
-    text-align: center;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    text-align: left;
+}
+
+.tHeader{
+    background-color: aquamarine;
+}
+
+.front::after{
+    content: "Tags";
+}
+
+.back::after{
+    content: "Description";
 }
