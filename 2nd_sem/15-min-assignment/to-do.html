@@ -22,11 +22,13 @@
                 function add()
                 {
                     var t = document.getElementById("task");
-                    task.push(
+                    if(t.value){
+                        task.push(
                         {name:  t.value , isComplete: false}
                         );
-                    t.value = "";  
-                    console.log(task);  
+                        t.value = "";  
+                        console.log(task);
+                    }  
                 };
 
          function makeComplete()
