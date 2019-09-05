@@ -40,3 +40,11 @@ th{
 .back::after{
     content: "Description";
 }
+
+.tables{
+    display: none;
+}
+
+#id{
+    display: block;
+}
